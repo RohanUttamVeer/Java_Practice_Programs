@@ -2,9 +2,9 @@
 // refer to the video below 
 // https://youtu.be/moQ3Kr8ouiU
 import java.util.Scanner;
-public class PrintFormatting {
+public class test {
 	public static void main(String[] args){
-	
+	/*
 	System.out.printf("%d ", 21);  // int 
 	System.out.printf("%f ", 2.1); // float
 	System.out.printf("%c ", 'r'); // char	for	lower	case
@@ -15,6 +15,16 @@ public class PrintFormatting {
 	System.out.printf("%B ", 6 < 5); // boolean in	upper case
 	System.out.printf("%n \n"); // newline
 	System.out.printf("%%"); // to print percent
+	*/
+	
+	
+	Scanner sc = new Scanner(System.in);
+	String a = sc.nextLine();
+	int b = sc.nextInt();
+	System.out.printf("%5s %02d",	a,	b); // 5 between %s gives 5 no. of spaces between the next input from right
+						   // if -5 is updated between %s then it gives 5 no. of spaces from the beginning from left
+						 // print single character for result
+	
 	
 	/*Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
@@ -36,3 +46,5 @@ public class PrintFormatting {
 				*/
 	}
 }
+
+// try executing every section and keep exploring %%good_luck%%
